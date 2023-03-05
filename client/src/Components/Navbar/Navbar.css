@@ -1,0 +1,44 @@
+.maindiv {
+    height: 3rem;width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;top: 0;z-index: 99999999999999999;
+    background-color:#fbc531;
+}
+
+.maindiv a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.acounts button{
+    background-color: transparent;border: none;
+    font-size: 1rem;font-family: Poppins ;
+    font-weight: 600;color: black;
+}
+.acounts a::after,.acounts button::after,.menu a::after {
+    content: " ";
+    height: .2rem;
+    width: 0%;
+    display: block;
+    margin: auto;
+    transition: .5s;
+    margin-top: .05rem;
+    color: black;
+}
+.maindiv a:hover::after,.maindiv button:hover::after {
+    width: 100%;
+    background-color: black;
+}
+
+.maindiv .acounts {
+    margin-left: 6.1rem;
+}
+
+.maindiv .acounts,
+.maindiv .menu {
+    display: flex;
+    gap: 1rem;
+}

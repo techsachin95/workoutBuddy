@@ -1,0 +1,19 @@
+form{
+    background-color:white;border-radius: .5rem;
+    width: 25%;padding: 2rem;position: absolute;right: 5%;top: 23%;
+    box-shadow: .2rem .2rem .2rem lightgray;z-index: 999999999;
+}
+form h1{
+    margin-bottom: 1rem;
+}
+form label{
+    font-size: 1.1rem;font-weight: 600;
+}
+form input{
+    height: 2.5rem;width: 98%;margin-bottom: 1rem;border-radius: .2rem;
+    font-size: 1rem;padding: .5rem;font-weight: 600;
+}
+form button{
+    padding: .6rem;width: 98%;font-size: 1.3rem;font-weight: 800;
+    background-color: #fbc531;border-radius: .5rem;cursor: pointer;
+}
